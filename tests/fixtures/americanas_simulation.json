@@ -1,0 +1,68 @@
+{
+ "items": [
+  {
+   "id": "7707262",
+   "seller": "1",
+   "price": 9999,
+   "sellingPrice": 9999,
+   "availability": "available"
+  }
+ ],
+ "logisticsInfo": [
+  {
+   "itemIndex": 0,
+   "slas": [
+    {
+     "id": "Retirada (l562)",
+     "name": "Retirada (l562)",
+     "deliveryChannel": "pickup-in-point",
+     "price": 0,
+     "shippingEstimate": "12h"
+    },
+    {
+     "id": "Retirada (l586)",
+     "name": "Retirada (l586)",
+     "deliveryChannel": "pickup-in-point",
+     "price": 0,
+     "shippingEstimate": "15h"
+    },
+    {
+     "id": "Retirada (l168)",
+     "name": "Retirada (l168)",
+     "deliveryChannel": "pickup-in-point",
+     "price": 0,
+     "shippingEstimate": "15h"
+    },
+    {
+     "id": "Retirada (l277)",
+     "name": "Retirada (l277)",
+     "deliveryChannel": "pickup-in-point",
+     "price": 0,
+     "shippingEstimate": "15h"
+    },
+    {
+     "id": "Retirada (l422)",
+     "name": "Retirada (l422)",
+     "deliveryChannel": "pickup-in-point",
+     "price": 0,
+     "shippingEstimate": "15h"
+    },
+    {
+     "id": "Entrega",
+     "name": "Entrega",
+     "deliveryChannel": "delivery",
+     "price": 1290,
+     "shippingEstimate": "1bd"
+    },
+    {
+     "id": "Entrega 2h",
+     "name": "Entrega 2h",
+     "deliveryChannel": "delivery",
+     "price": 1989,
+     "shippingEstimate": "14h"
+    }
+   ]
+  }
+ ],
+ "messages": []
+}

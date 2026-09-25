@@ -1,0 +1,33 @@
+[project]
+name = "price-scout"
+version = "0.1.0"
+description = "Comparador de preços (preço + frete por CEP) em sites de e-commerce"
+authors = [
+    { name = "samuel", email = "sammubr@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "playwright>=1.63.0",
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+price-scout = "price_scout.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+markers = ["live: hits real e-commerce sites"]
+addopts = "-m 'not live'"

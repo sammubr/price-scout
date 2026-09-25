@@ -1,0 +1,29 @@
+[[sites]]
+id = "amazon"
+name = "Amazon"
+enabled = true
+
+[[sites]]
+id = "americanas"
+name = "Americanas"
+enabled = true
+
+[[sites]]
+id = "magalu"
+name = "Magazine Luiza"
+enabled = true
+
+[[sites]]
+id = "mercadolivre"
+name = "Mercado Livre"
+enabled = true
+
+[[sites]]
+id = "shopee"
+name = "Shopee"
+enabled = true
+
+[[sites]]
+id = "submarino"
+name = "Submarino"
+enabled = true

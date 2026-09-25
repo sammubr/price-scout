@@ -1,0 +1,29 @@
+{
+ "items": [
+  {
+   "id": "4010189",
+   "seller": "1",
+   "price": 14999,
+   "sellingPrice": 14999,
+   "availability": "cannotBeDelivered"
+  }
+ ],
+ "logisticsInfo": [
+  {
+   "itemIndex": 0,
+   "slas": []
+  }
+ ],
+ "messages": [
+  {
+   "code": "cannotBeDelivered",
+   "text": "O item Fone de Ouvido Bluetooth Sem Fio BT760 Branco não pode ser entregue para as coordenadas selecionadas",
+   "status": "error",
+   "fields": {
+    "ean": "4893948974481",
+    "itemIndex": "0",
+    "skuName": "Fone de Ouvido Bluetooth Sem Fio BT760 Branco"
+   }
+  }
+ ]
+}
